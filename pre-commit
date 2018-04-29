@@ -1,0 +1,4 @@
+#!/usr/bin/env python3.5
+
+import subprocess start_test = subprocess.run(['python3.5', 'tests.py']).returncode 
+exit(start_test)
